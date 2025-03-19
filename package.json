@@ -1,8 +1,25 @@
 {
+  "name": "chessstakes-app",
+  "version": "1.0.0",
+  "description": "Chess$takes - A 3D Chess Betting Game",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
-    "@react-three/drei": "^10.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "^0.150.1",
     "@react-three/fiber": "^9.1.0",
-    "chess.js": "^1.1.0",
-    "three": "^0.174.0"
-  }
+    "@react-three/drei": "^9.45.0",
+    "chess.js": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
 }
